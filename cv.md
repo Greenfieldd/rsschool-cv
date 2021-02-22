@@ -24,6 +24,9 @@ I consider my strengths are the ability to study new things quickly and patience
 - C/C++
 - HTML/CSS
 - JS (beginner)
+- Assembler
+- Arduino
+- Git
 
 Now I don't have work experience and I want to get it.
 
