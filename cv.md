@@ -3,6 +3,7 @@
 ---
 
 ### My contacts:
+- email: lapina.sasha99@gmail.com
 - +375445424031 (A1) 
 - Telegram: @Sashashsh
 
