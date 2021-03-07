@@ -71,6 +71,23 @@
 	  <p> Now I don’t have work experience and I want to get it.</p>
     </section>
     <section>
+      <h2>Code samples:</h2>
+      <p>This code reverses the string passed into it.</p>
+    <code>
+      <pre>
+	function reverse(str) {
+        let result = str.split('');
+        for (let i = 0, j = str.length - 1;i < j; i+=1, j-=1) {
+           result[i] = str[j];
+           result[j] = str[i];
+        }
+        return result.join('');
+	}
+      </pre>
+    </code>
+    <hr />
+    </section>
+    <section>
       <h2>Education:</h2>
 	  <ul>
 	    <li>2017-2021</li>
