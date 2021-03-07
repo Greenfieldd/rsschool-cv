@@ -31,7 +31,7 @@
   <body>
     <header>
       <h1>Lapina Alexandra</h1>
-      <img src="https://clck.ru/TT89H" width="250"/>
+      <img src="https://clck.ru/TT89H" width="250" alt="avatar"/>
     </header>
     <section>
       <h2>My contacts:</h2>
@@ -47,14 +47,12 @@
       <p>
         I want to become a front-end developer.
       </p>
-	  </hr>
-	  <p>
+      <p>
 	    In the future I plan to study other programming languages and expand my knowledge in the computer science!
-	  </p>
-      </hr>
+      </p>
       <p>
 	  I consider my strengths are the ability to study new things quickly and patience.
-	  </p>
+      </p>
       <hr />
     </section>
     <section>
@@ -69,6 +67,23 @@
       </ul>
       <hr />
 	  <p> Now I don’t have work experience and I want to get it.</p>
+    </section>
+    <section>
+      <h2>Code samples:</h2>
+      <p>This code reverses the string passed into it.</p>
+    <code>
+      <pre>
+	function reverse(str) {
+        let result = str.split('');
+        for (let i = 0, j = str.length - 1;i < j; i+=1, j-=1) {
+           result[i] = str[j];
+           result[j] = str[i];
+        }
+        return result.join('');
+	}
+      </pre>
+    </code>
+    <hr />
     </section>
     <section>
       <h2>Education:</h2>
